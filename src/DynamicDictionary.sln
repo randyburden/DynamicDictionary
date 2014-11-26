@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicDictionary", "DynamicDictionary\DynamicDictionary.csproj", "{CF85E9A2-1971-4A98-B5D2-E6CD184EEF3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicDictionaryTests", "DynamicDictionaryTests\DynamicDictionaryTests.csproj", "{2EBDB02D-5F05-42B2-9327-7D44D34E2DD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF85E9A2-1971-4A98-B5D2-E6CD184EEF3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF85E9A2-1971-4A98-B5D2-E6CD184EEF3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF85E9A2-1971-4A98-B5D2-E6CD184EEF3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF85E9A2-1971-4A98-B5D2-E6CD184EEF3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EBDB02D-5F05-42B2-9327-7D44D34E2DD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EBDB02D-5F05-42B2-9327-7D44D34E2DD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EBDB02D-5F05-42B2-9327-7D44D34E2DD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EBDB02D-5F05-42B2-9327-7D44D34E2DD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
