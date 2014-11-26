@@ -86,18 +86,6 @@ namespace DynamicDictionary
             return base.TryInvokeMember( binder, args, out result );
         }
 
-        public override bool TryDeleteMember( DeleteMemberBinder binder )
-        {
-            if ( _dictionary.ContainsKey( binder.Name ) )
-            {
-                _dictionary.Remove( binder.Name );
-
-                return true;
-            }
-
-            return base.TryDeleteMember( binder );
-        }
-
         #endregion DynamicObject Overrides
 
         #region IDictionary<string,object> Members
