@@ -122,14 +122,7 @@ namespace DynamicDictionary
 
         public object this[ string key ]
         {
-            get
-            {
-                object value = null;
-
-                _dictionary.TryGetValue( key, out value );
-
-                return value;
-            }
+            get { return _dictionary[ key ]; }
             set { _dictionary[ key ] = value; }
         }
 
@@ -266,9 +259,14 @@ namespace DynamicDictionary
                 {
                     TValue value;
 
-                    _dictionary.TryGetValue( key, out value );
-
-                    return value;
+                    if ( _dictionary.TryGetValue( key, out value ) )
+                    {
+                        return value;
+                    }
+                    else
+                    {
+                        return default(TValue);
+                    }
                 }
                 set { _dictionary[ key ] = value; }
             }
